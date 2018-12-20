@@ -3,7 +3,7 @@
 
     <groupId>com.itfsw</groupId>
     <artifactId>mybatis-generator-plugin</artifactId>
-    <version>1.2.15-SNAPSHOT</version>
+    <version>1.2.15</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -105,7 +105,8 @@
             <scope>system</scope>
             <optional>true</optional>
             <!-- jdk path -->
-            <systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>
+            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/tools.jar</systemPath>
+            <!--<systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>-->
         </dependency>
     </dependencies>
 

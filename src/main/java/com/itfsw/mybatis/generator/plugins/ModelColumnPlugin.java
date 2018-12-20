@@ -182,7 +182,7 @@ public class ModelColumnPlugin extends BasePlugin {
             Field field = JavaBeansUtil.getJavaBeansField(introspectedColumn, context, introspectedTable);
 
             StringBuffer sb = new StringBuffer();
-            sb.append(field.getName());
+            sb.append(introspectedColumn.getActualColumnName());
             sb.append("(\"");
             sb.append(introspectedColumn.getActualColumnName());
             sb.append("\", \"");
